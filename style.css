@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: white;
+  }
+  
+  .navbar {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+  }
+  
+  .navItem {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar h2 {
+    color: #28352f;
+    font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+  
+  .navbar i {
+    color: #28352f;
+  }
+  
+  .navbar .navItem {
+    text-decoration: none;
+  }
