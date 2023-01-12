@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -97,7 +98,8 @@ p {
   color: #172b4d;
 }
 
-h1 {
+h1,
+h3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -130,4 +132,543 @@ h1 {
 
 .socilaLinks li {
   margin: 10px;
+}
+
+.indicator,
+.scroll-button img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indicator {
+  margin-bottom: 62px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  padding: 4px 2px;
+  gap: 24px;
+  width: 331px;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background: #ebf0ee;
+  border-radius: 8px;
+  border: 1px solid #d0d9d4;
+  border-bottom: 1px solid #d0d9d4;
+  height: 474px;
+  width: 327px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.card-image {
+  height: 252px;
+  width: 327px;
+  border-radius: 8px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 325px;
+  height: 219px;
+  border-radius: 8px;
+  bottom: 0;
+  background: #fff;
+  gap: 16px;
+}
+
+.project-title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3a4a42;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 305px;
+  height: 32px;
+}
+
+.tag-ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  width: 103px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.tag-text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  text-align: center;
+}
+
+.tag-css {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  width: 45px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.tag-javascript {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  width: 82px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.tag-html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  width: 51px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: auto;
+  height: auto;
+  bottom: 8px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
+}
+
+.button:hover {
+  background-color: #2b9f6f;
+  transform: scale(1.01);
+}
+
+.button:active {
+  background-color: #008552;
+}
+
+.aboutMe {
+  background-image: url("images/illustration-\ about\ me-\ mobile.svg");
+  background-position: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: repeat;
+  align-items: center;
+  margin-bottom: 68px;
+}
+
+.h3-background {
+  background: url("images/illustration\ 1-\ about\ me-mobile.svg");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 375px;
+}
+
+.languages-card {
+  background: #ebf0ee;
+  border-radius: 8px;
+  border: 1px solid #c1c7d0;
+  border-bottom: 1px solid #d0d9d4;
+  height: 352px;
+  width: 327px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  justify-content: center;
+}
+
+.ellipse {
+  display: flex;
+  justify-content: center;
+}
+
+.ellipse-image {
+  margin-top: 40px;
+}
+
+.language-text {
+  width: 337px;
+  height: 32px;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+  margin-bottom: 32px;
+}
+
+.tag-container-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 266px;
+  height: 88px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frameworks-tag-container {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 266px;
+  height: 40px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bootstrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 84px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.rubyOnRails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 103px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.rspec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 63px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.capybara {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 83px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  margin-left: 50px;
+}
+
+.selenium {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 81px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.skills-tag-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 303px;
+  height: 88px;
+}
+
+.codekit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 72px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 67px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.codepen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 79px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.gitlab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 61px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.terminal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 77px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.language-tag-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 271px;
+  height: 40px;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lang-jsListitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 89px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.lang-rubyListitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 55px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.lang-htmlListitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 53px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.lang-cssListitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 50px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
+
+.btn_effects:hover {
+  background-color: #008552;
+  cursor: pointer;
+}
+
+.btn_effects:active {
+  background: #008552;
 }
