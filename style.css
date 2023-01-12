@@ -131,3 +131,10 @@ h1 {
 .socilaLinks li {
   margin: 10px;
 }
+
+.indicator,
+.scroll-button img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
