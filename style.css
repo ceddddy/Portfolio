@@ -297,3 +297,22 @@ h1 {
   cursor: pointer;
 }
 
+.aboutMe {
+  background-image: url("images/illustration-\ about\ me-\ mobile.svg");
+  background-position: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: repeat;
+  align-items: center;
+  margin-bottom: 68px;
+}
+
+.h1-background {
+  background: url("images/illustration\ 1-\ about\ me-mobile.svg");
+  background-position-x: right;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 375px;
+}
