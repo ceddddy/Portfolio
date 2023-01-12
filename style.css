@@ -98,7 +98,8 @@ p {
   color: #172b4d;
 }
 
-h1, h3 {
+h1,
+h3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -294,17 +295,12 @@ h1, h3 {
 
 .button:hover {
   background-color: #2b9f6f;
-  transform: scale(1.010);
+  transform: scale(1.01);
 }
 
 .button:active {
   background-color: #008552;
 }
-
-
-/* .button:enabled {#36B37F
-  background-color: #36b37f;
-} */
 
 .aboutMe {
   background-image: url("images/illustration-\ about\ me-\ mobile.svg");
