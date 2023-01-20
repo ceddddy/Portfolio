@@ -24,13 +24,14 @@ body {
   padding: 0;
 }
 
-.navbar h2 {
+.header h2 {
   color: #28352f;
   font-style: normal;
   font-family: "Inter", sans-serif;
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .navbar i {
@@ -47,9 +48,9 @@ body {
   margin: 10px;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background: white;
 }
 
 .header h2 {
@@ -82,7 +83,13 @@ body {
   background-size: cover;
   background-repeat: repeat;
   align-items: center;
+  background-position-x: -10px;
+  background-position-y: 58px;
 }
+
+/* .content-container > p {
+  max-width: 600px;
+} */
 
 p {
   text-align: center;
@@ -98,7 +105,20 @@ p {
   color: #172b4d;
 }
 
-h1,
+h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  padding: 10px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 120px;
+}
+
 h3 {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -851,4 +871,168 @@ h3 {
 .divider {
   display: flex;
   justify-content: center;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    background-image: url("images/Header-llustration-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+  }
+
+  .recent-work-text {
+    display: none;
+  }
+
+  .recent-work-text-desktop {
+    margin-bottom: 40px;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .card-container {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1171px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutMe {
+    /* background-image: url("images/illustration_about_me_desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-position: 0 1px; */
+    display: none;
+  }
+
+  .about-me-desktop {
+    /* background-image: url("images/illustration_about_me_desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+  
+    /* background-image: url("images/illustration-\ about\ me-\ mobile.svg"); */
+    /* background-position: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    /* background-size: cover; */
+    /* background-repeat: repeat; */
+    /* align-items: center;
+    margin-bottom: 68px; */ 
+  
+    /* Vic */
+  
+    padding: 3em 0;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: auto;
+    gap: 24px;
+    justify-items: center;
+    align-items: center;
+    background-image: url("/images/aboutme-desktop.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left 15em, right top;
+  }
+
+  .about-me-desktop > p {
+    max-width: 900px;
+    
+    
+  }
+
+  /* .para-wrap {
+    background-image: url("/images/aboutme-desktop.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left 15em, right top;
+  } */
+
+  .h1-background{
+    margin-top: 0px;
+  }
+  
+  .h1-about-me-desktop {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content-container {
+    background-position-x: -48px;
+  }
+
+  .recent-work-text-desktop {
+    display: none;
+  }
+}
+
+/* maximum mobile width for header */
+
+@media (max-width: 767px) {
+  .header .header-text,
+  .header nav.navItem,
+  .header .menu-bars {
+    flex: 1 0 auto;
+    width: 100%;
+  }
+
+  .header .header-text {
+    order: 1;
+    max-width: 80%;
+    position: relative;
+    left: -20px;
+  }
+
+  .header nav.navItem {
+    order: 3;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .header .menu-bars {
+    order: 2;
+    max-width: 20%;
+    text-align: center;
+    position: relative;
+    right: -37px;
+  }
+}
+
+/* minimum width to hide welcome and menu bars on tablets and desktop */
+
+@media screen and (min-width: 768px) {
+  .header .header-text,
+  .header .menu-bars {
+    display: none;
+  }
+
+  .header nav.navItem {
+    text-decoration: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .header nav.navItem > a {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 30.33%;
+    margin: 0 15%;
+    text-align: center;
+  }
 }
