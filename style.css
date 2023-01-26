@@ -6,13 +6,12 @@
 }
 
 body {
-  height: 100vh;
   background-color: white;
 }
 
 .navbar {
-  margin: 10px;
-  padding: 10px;
+  margin: 2%;
+  padding: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,8 +85,8 @@ body {
 
 p {
   text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 28px;
   margin-bottom: 50px;
   line-height: 28px;
@@ -108,8 +107,6 @@ h3 {
   text-align: center;
   color: #172b4d;
   padding: 10px;
-  margin-right: 24px;
-  margin-left: 24px;
   margin-top: 50px;
 }
 
@@ -124,9 +121,9 @@ h3 {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  margin-left: 102.42;
-  margin-right: 102.42;
-  height: 20px;
+  /* margin-left: 102.42;
+  margin-right: 102.42; */
+  /* height: 20px; */
   margin-bottom: 64px;
 }
 
@@ -151,10 +148,8 @@ h3 {
   align-items: center;
   padding: 4px 2px;
   gap: 24px;
-  width: 331px;
-  height: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .card {
@@ -162,12 +157,12 @@ h3 {
   border-radius: 8px;
   border: 1px solid #d0d9d4;
   border-bottom: 1px solid #d0d9d4;
-  height: 474px;
-  width: 327px;
-  left: 0;
+  /* height: 474px;
+  width: 327px; */
+  /* left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
+  bottom: 0; */
 }
 
 .card-image {
@@ -183,7 +178,7 @@ h3 {
   width: 325px;
   height: 219px;
   border-radius: 8px;
-  bottom: 0;
+  /* bottom: 0; */
   background: #fff;
   gap: 16px;
 }
@@ -199,8 +194,8 @@ h3 {
   text-align: center;
   color: #3a4a42;
   margin-top: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tag-container {
