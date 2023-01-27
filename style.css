@@ -819,8 +819,8 @@ h3 {
 @media screen and (max-width: 767px) {
   .navItem ul {
     display: none;
-  }  
-  
+  } 
+
   .header {
     margin: 10px;
     padding: 10px;
