@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+  <section class="content-container">
   <header class="header">
 
     <a class="header-text navItem" href="#">
@@ -20,11 +20,15 @@
     </a>
 
     <nav class="navItem">
-      <a href="#"><i class="fa fa-bars"></i></a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
+    <a class="menu-btn" href="#"><i class="fa fa-bars"></i></a>
   </header>
 
-  <section class="content-container">
     <h1>
       Hey there, I'm Cedrich<br /><span class="profession">I'm a software developer.</span>
     </h1>
@@ -33,6 +37,7 @@
       of my work and experience! If you like what you see and have a project
       you need coded, don’t hestiate to contact me.
     </p>
+  
     <ul class="socilaLinks">
       <li>
         <a href="#" target="_blank"><img src="images/twitter.png" /></a>
@@ -50,17 +55,23 @@
         <a href="#" target="_blank"><img src="images/angellist.png" /></a>
       </li>
     </ul>
+
+    <div class="scroll-button">
+      <img src="images/Disabled.png" alt="scroll button" />
+    </div>
+
   </section>
 
-  <div class="scroll-button">
-    <img src="images/Disabled.png" alt="scroll button" />
-  </div>
+  
 
   <h1 class="recent-work-text">
     My Recent<br />
     Works
   </h1>
-
+    
+  <h1 class="recent-work-text-desktop">
+      My Recent Works
+  </h1>
   <div>
     <img class="indicator" src="images/Indicator.png" alt="indicator" />
   </div>
@@ -264,6 +275,17 @@
   <button type="button" class="button">Get My Resume</button>
 </section>
 
+<section class="about-me-desktop">
+  <div class="h1-background">
+      <h1 class="h1-about-me-desktop">About Me</h1>
+  </div>
+  <div class="para-wrap">
+  <p> I can help you build a product , feature or website Look through some of my work and experience! If you like
+      what you see and have a project you need coded, don’t hestiate to contact me.</p>
+  </div>   
+  <button class="button">Get My Resume</button>
+</section>
+
 <section class="card-container">
   <article class="languages-card">
     <div class="ellipse">
@@ -319,32 +341,35 @@
 </section>
 
 <section class="section-contact-form">
-  <div class="div-heading-form">
-    <h2 class="heading-form">I'm always interested in hearing about new projects, so if you'd like to chat please
-      get in touch.</h2>
-  </div>
-  <div>
-    <form class="contact-form"  action="https://formspree.io/f/moqbgore" method="post">
-      <div>
-        <fieldset>
-          <input type="text" placeholder="Fullname" maxlength="30" required/>
-        </fieldset>
-      </div>
-      <div>
-        <fieldset>
-          <input type="email" placeholder="Email address" required/>
-        </fieldset>
-      </div>
-      <div>
-        <fieldset>
-          <textarea name="comment" placeholder="Enter text here" maxlength="500" required></textarea>
-        </fieldset>
-      </div>
-      <div>
-        <button class="button" type="submit">Get in touch</button>
-      </div>
-    </form>
-  </div>
+  <div class="form-div">
+      
+        <h2 class="heading-form">I'm always interested in hearing about new projects, so if you'd like to chat please
+          get in touch.</h2>
+     
+
+      <form class="contact-form" action="https://formspree.io/f/moqbgore" method="post">
+        <div>
+          <fieldset>
+            <input type="text" placeholder="Fullname" maxlength="30" required />
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <input type="email" placeholder="Email address" required />
+          </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <textarea name="comment" placeholder="Enter text here" maxlength="500" required></textarea>
+          </fieldset>
+        </div>
+        <div>
+          <button class="button" type="submit">Get in touch</button>
+        </div>
+      </form>
+    
+   </div>
+  
   <div class="contact-form-icons">
     <ul class="socilaLinks">
       <li>
@@ -366,6 +391,7 @@
   </div>
 
 </section>
+
 <div class="email-footer">
   <h3 class="heading-footer">mandeyacedrich@gmail.com</h3>
 </div>
