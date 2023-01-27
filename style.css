@@ -819,7 +819,7 @@ h3 {
 @media screen and (max-width: 767px) {
   .navItem ul {
     display: none;
-  }
+  }  
   
   .header {
     margin: 10px;
@@ -868,12 +868,12 @@ h3 {
     padding: 0;
   }
 
-.content-container h1 {
-  margin-top: 110px;
-}
+  .content-container h1 {
+    margin-top: 110px;
+  }
 
   .content-container p {
-   max-width: 650px
+    max-width: 650px;
   }
 
   .scroll-button {
@@ -949,15 +949,14 @@ h3 {
     border-radius: 0;
     padding: 64px 24px 64px 24px;
     align-items: center;
-}
+  }
 
-.form-div h2 {
-  width: 100%;
-  max-width: 50ch;
-}
+  .form-div h2 {
+    width: 100%;
+    max-width: 50ch;
+  }
 
-.divider {
-  display: none;
-}
-
+  .divider {
+    display: none;
+  }
 }
