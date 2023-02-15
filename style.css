@@ -692,7 +692,7 @@ h3 {
 
 .section-contact-form div .contact-form div fieldset input[type="text"] {
   height: 48px;
-  width: 327px;
+  width: 10rem;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   font-size: 15px;
@@ -702,6 +702,7 @@ h3 {
   text-align: left;
   color: #6b778c;
   padding: 15px 16px;
+  margin: 0.15rem;
 }
 
 .section-contact-form div .contact-form div fieldset input[type="text"]:hover {
