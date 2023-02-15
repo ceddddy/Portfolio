@@ -6,13 +6,12 @@
 }
 
 body {
-  height: 100vh;
   background-color: white;
 }
 
 .navbar {
-  margin: 10px;
-  padding: 10px;
+  margin: 2%;
+  padding: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,6 +63,7 @@ body {
 
 .header i {
   color: #28352f;
+  margin-left: 11rem;
 }
 
 .header-text {
@@ -86,8 +86,9 @@ body {
 
 p {
   text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px;
   margin-top: 28px;
   margin-bottom: 50px;
   line-height: 28px;
@@ -108,8 +109,6 @@ h3 {
   text-align: center;
   color: #172b4d;
   padding: 10px;
-  margin-right: 24px;
-  margin-left: 24px;
   margin-top: 50px;
 }
 
@@ -124,9 +123,6 @@ h3 {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  margin-left: 102.42;
-  margin-right: 102.42;
-  height: 20px;
   margin-bottom: 64px;
 }
 
@@ -151,10 +147,8 @@ h3 {
   align-items: center;
   padding: 4px 2px;
   gap: 24px;
-  width: 331px;
-  height: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .card {
@@ -162,12 +156,6 @@ h3 {
   border-radius: 8px;
   border: 1px solid #d0d9d4;
   border-bottom: 1px solid #d0d9d4;
-  height: 474px;
-  width: 327px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
 }
 
 .card-image {
@@ -183,7 +171,6 @@ h3 {
   width: 325px;
   height: 219px;
   border-radius: 8px;
-  bottom: 0;
   background: #fff;
   gap: 16px;
 }
@@ -199,8 +186,8 @@ h3 {
   text-align: center;
   color: #3a4a42;
   margin-top: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tag-container {
@@ -209,8 +196,6 @@ h3 {
   align-items: center;
   padding: 0;
   gap: 8px;
-  width: 305px;
-  height: 32px;
 }
 
 .tag-ruby {
@@ -218,8 +203,6 @@ h3 {
   flex-direction: row;
   align-items: center;
   padding: 8px 12px;
-  width: 103px;
-  height: 32px;
   background: #ebf0ee;
   border-radius: 4px;
 }
@@ -240,8 +223,6 @@ h3 {
   flex-direction: row;
   align-items: center;
   padding: 8px 12px;
-  width: 45px;
-  height: 32px;
   background: #ebf0ee;
   border-radius: 4px;
 }
@@ -252,8 +233,6 @@ h3 {
   justify-content: center;
   align-items: center;
   padding: 8px 12px;
-  width: 82px;
-  height: 32px;
   background: #ebf0ee;
   border-radius: 4px;
 }
@@ -264,8 +243,6 @@ h3 {
   align-items: center;
   justify-content: center;
   padding: 8px 12px;
-  width: 51px;
-  height: 32px;
   background: #ebf0ee;
   border-radius: 4px;
   text-align: center;
@@ -277,8 +254,6 @@ h3 {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: auto;
-  height: auto;
   bottom: 8px;
   background: #36b37f;
   border-radius: 4px;
@@ -329,10 +304,6 @@ h3 {
   border-bottom: 1px solid #d0d9d4;
   height: 352px;
   width: 327px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
   justify-content: center;
 }
 
@@ -346,8 +317,6 @@ h3 {
 }
 
 .language-text {
-  width: 337px;
-  height: 32px;
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -364,7 +333,6 @@ h3 {
   align-items: center;
   padding: 0;
   gap: 8px;
-  width: 266px;
   height: 88px;
   margin-left: auto;
   margin-right: auto;
@@ -674,13 +642,9 @@ h3 {
 }
 
 .section-contact-form {
-  margin-left: auto;
-  margin-right: auto;
-  height: 879px;
-  width: 375px;
-  border-radius: 0;
-  padding: 64px 24px 64px 24px;
-  gap: 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("images/illustration-contact-form.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -728,7 +692,7 @@ h3 {
 
 .section-contact-form div .contact-form div fieldset input[type="text"] {
   height: 48px;
-  width: 327px;
+  width: 10rem;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   font-size: 15px;
@@ -738,6 +702,7 @@ h3 {
   text-align: left;
   color: #6b778c;
   padding: 15px 16px;
+  margin: 0.15rem;
 }
 
 .section-contact-form div .contact-form div fieldset input[type="text"]:hover {
@@ -851,4 +816,149 @@ h3 {
 .divider {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .navItem ul {
+    display: none;
+  }
+
+  .header {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navItem ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navItem ul li {
+    margin-right: 25px;
+    text-decoration: none;
+  }
+
+  .menu-btn,
+  .header-text {
+    display: none;
+  }
+
+  .navItem {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+  }
+
+  .content-container {
+    background-image: url("/images/Header-llustration-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    background-position-x: center;
+  }
+
+  .header {
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-container h1 {
+    margin-top: 110px;
+  }
+
+  .content-container p {
+    max-width: 650px;
+  }
+
+  .scroll-button {
+    margin-bottom: 495px;
+  }
+
+  .recent-work-text {
+    display: none;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .recent-work-text-desktop {
+    margin-bottom: 42px;
+    margin-top: 0;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .aboutMe {
+    display: none;
+  }
+
+  .about-me-desktop {
+    padding: 3em 0;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: auto;
+    gap: 24px;
+    justify-items: center;
+    align-items: center;
+    background-image: url("/images/aboutme-desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+  }
+
+  .about-me-desktop p {
+    max-width: 750px;
+    margin-bottom: 24px;
+  }
+
+  .form-div {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .heading-form {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    color: #172b4d;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .section-contact-form {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    padding: 64px 24px 64px 24px;
+    align-items: center;
+  }
+
+  .form-div h2 {
+    width: 100%;
+    max-width: 50ch;
+  }
+
+  .divider {
+    display: none;
+  }
 }
